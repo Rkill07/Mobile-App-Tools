@@ -1,0 +1,45 @@
+<html>
+<head>
+    <title>Working with Bootstrap</title>
+    <script src="js/boot.js"></script>
+    <script src="js/boot1.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css" type ="text/css">
+     <link rel="stylesheet" href="css/boot2.css" type ="text/css">
+    <script src="js/boot2.js"></script>
+</head>
+    <body>
+        <script>
+        var x=prompt("enter quantity");
+            document.write("<button class='btn-danger'>shopping <span class=badge>"+x+"</span></button>");        
+        </script>
+        <nav class="navbar navbar-default">
+         <div class="navbar-header">
+        <button class="navbar-toggle" data-toggle="collapse" data-target="#test">
+        <span class="icon-bar"></span>    
+        <span class="icon-bar"></span>    
+        </button>
+            </div>
+        <div class="collapse navbar-collapse" id="test">
+            <ul class="nav navbar-nav">
+            <li><a href="#">A</a></li>
+            <li><a href="#">B</a></li>
+            <li><a href="#">C</a></li>
+            <li><a href="#">D</a></li>
+            </ul>            
+            </div>
+        </nav>
+        <div align=center class=well> Hello</div>
+         <div align=center>
+        <button class=btn-info active>Button1</button>
+        <button class=btn-danger disabled>Button2</button>
+        
+           <button class="btn-info active" >Active </button>
+        <button class="btn-danger disabled" >Disabled</button></div>
+        
+        <div  class=btn-group style="color:aquamarine" >
+           <button  class=btn-info>click1</button>
+        <button  class=btn-warning>click2</button>
+        </div>
+  
+    </body>
+</html>
